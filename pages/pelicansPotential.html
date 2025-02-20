@@ -1,1 +1,88 @@
+<!-- 
+author: Victor Love
+version: whatever
+best viewed: chrome
+-->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pelicans Potential App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+  
+    <header>
+    <center>
+      <h1>Pelicans Potential App</h1>
+      <img src="pelicans.jpeg" width="200" height="267" alt="Pelcians Logo"/>
+      <p>This is the potential of the 
+      <a href="https://www.nba.com/pelicans/" target="_blank">New Orleans Pelicans
+      </a> NBA team for the 2024-25 season.</p>
+      <a href='https://www.espn.com/nba/team/schedule/_/name/no/new-orleans-pelicans' target='_blank'>Game Schedule</a>
+    </center>
+    </header>
+  <main>
+    <label for="gameDate">Game Dates</label><br>
+    <input id="gameDate" type="date" placeholder="gameDate"><br>
+
+    <label for="whoStats">Who would you like stats for?</label><br>
+
+    <textarea id="whereParked" rows="1" cols="30">
+      </textarea>
+      <button id="saveStat" class='PelicansSuperCoolButtonClass'>save input</button>
+  <div class="pelsTeam">
+    <h3>Current Team</h3>
+  </div>
+  <!-- list of saved players -->
+  <ul style="color:navy;">
+    <h3><strong>Players:</strong></h3>
+    <li id="starters"><strong>Starters</strong>
+      <ul>
+        <li>Brandon Ingram</li>
+        <li>Zion Williamson</li>
+        <li>Herbert Jones</li>
+        <li>Dejounte Murray</li>
+        <li>Trey Murphy III</li>
+      </ul> 
+    </li> 
+    <li id="bench"><strong>Bench</strong>
+      <ul>
+        <li>CJ McCollum</li>
+        <li>Yves Missi</li>
+        <li>Jordan Hawkins</li>
+        <li>Brandon Boston</li>
+        <li>Jose Alverado</li>
+        <li>Antonio Reeves</li>
+        <li>Daniel Thesis</li>
+        <li>Javonte Green</li>
+        <li>Jerimiah Robinson Earl</li>
+      </ul> 
+   <li id="two-way players"><strong>Two-Way Players</strong>
+      <ul>
+        <li>Karlo Matkovic</li>
+        <li>Keion Brooks Jr.</li>
+        <li>Jamal Cain</li>
+      </ul> 
+    </li>
+    </li>
+  </ul>
+  </main>
+  </body>
+
+  <footer>
+      <p>2025 Pelicans Potential App</p> 
+      <img src="seal.jpeg" width="100" height="100" alt="Class Mascot" /> 
+  </footer>
+  link to the <a href="https://codepen.io/VicLove25/pen/vEBVovE">original codepen</a>
+  
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</html>
