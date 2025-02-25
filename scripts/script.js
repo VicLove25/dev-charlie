@@ -1,6 +1,6 @@
 // dongo
 // some js
-$( document ).ready(function() {
+/* $( document ).ready(function() {
     console.log( "don't click on the seal" );
 
     $('#classMascot').hover(
@@ -11,4 +11,8 @@ $( document ).ready(function() {
             }
     ); 
     
+}); */
+
+$('.navbar-brand').click(function() {
+  $('#easterEggMessage').fadeIn(); // Or .slideDown() for a different effect
 });
