@@ -13,8 +13,6 @@ Kevin Garnett
 
 This project was primarily developed by VicLove25 https://github.com/VicLove25.
 
-[If applicable, acknowledge any collaborators or external libraries/resources you used. For example:]
-
 Special thanks to barrycumbie for his help on this project.
 Link to his code: https://github.com/barrycumbie/special-fortnight-charlie/blob/main/styles/charlie-style.css](https://github.com/barrycumbie/special-fortnight-charlie) 
 
