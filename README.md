@@ -6,8 +6,8 @@ This README provides a comprehensive overview of the dev-charlie project.
 
 # A quote that has striked my interest:
 
-_I learned one thing - never hate a positive option.
-Kevin Garnett_
+__I learned one thing - never hate a positive option.__
+Kevin Garnett
 
 ## Authorship & Attribution ✍️
 
